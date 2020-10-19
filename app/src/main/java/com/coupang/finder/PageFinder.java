@@ -58,6 +58,7 @@ public class PageFinder {
 
             }
         };
+        application.registerActivityLifecycleCallbacks(activityLifecycleCallbacks);
 
 
     }
@@ -73,5 +74,6 @@ public class PageFinder {
 
             }
         };
+        fragmentManager.registerFragmentLifecycleCallbacks(fragmentLifecycleCallbacks, true);
     }
 }
