@@ -18,7 +18,8 @@ public class PageFinder {
     static String TAG = "PageFinder";
     private static boolean moreInfo = false;
 
-    public static void init(Application application) {
+    public static void init(Application application, boolean debug) {
+        if (!debug) return;
         Application.ActivityLifecycleCallbacks activityLifecycleCallbacks = new Application.ActivityLifecycleCallbacks() {
             @Override
             public void onActivityCreated(@NonNull Activity activity, @Nullable Bundle bundle) {
