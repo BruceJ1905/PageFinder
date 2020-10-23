@@ -39,3 +39,13 @@ It won't work in release mode. So don't worry about impacting your App performan
 pls contact me if you have any question.
 
 Email:  brjiang@coupang.com
+
+
+PageFinder   VS     [CurrentActivity](https://github.com/BruceJ1905/CurrentActivity)
+
+|  PageFinder   | [CurrentActivity](https://github.com/BruceJ1905/CurrentActivity)  |
+|  ----  | ----  |
+| 嵌入项目源码  | 无需嵌入源码 |
+| 检测activity， fragment  | 检测activity，dialog， view |
+| maven库  |   apk   |
+| lifecycle callback   |    辅助服务AccessibilityService  | 
